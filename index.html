@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<title>Login | Page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://kit.fontawesome.com/6c54af892e.js" crossorigin="anonymous"></script>
-
+	<title>table</title>
+	<style type="text/css">
+		table tr
+		{
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-	<div class ="maindiv">
-        <h3 class="heading-primary">
-            User 
-        </h3>
-        <h3 class="heading-secondary">Login</h3>
-        <i class="fa-solid fa-user" style="font-size: 60px;  margin-left: 250px; margin-top: 40px;"></i>
-       
-        <form action="#" method="post" autocomplete="off">
-                <input type="text" name="txtuser" class="txtuser" placeholder="Username "  required>
-                <br><br>
-                <input type="password" name="txtpass" class="txtpass" placeholder="Password"  required>
-                <br><br>
-                <input type="checkbox" name="chkbox" class="chkbox">
-	            <label class="lblrem">Remember Me</label>
-	            <br><br>
-                <button class="btnsend"value="Send">Send</button>
+     <center><h2>TIME TABLE</h2></center>
+     <center><table border="5" cellspacing="0" cellpadding="15px"></center>
+        <tr>
+     		<th>Day/period</th>
+     		<th>I <br>9:30-10:20</th>
+     		<th>II <br>10:20-11:10</th>
+     		<th>III <br>11:10-12:00</th>
+     		<th> 12:00-12:40</th>
+     		<th>IV <br>12:40-1:30</th>
+     		<th>V <br> 1:30-2:20</th>
+     		<th>VI <br>2:20-3:10</th>
+     		<th>VII <br>3:10-4:00</th>
+        </tr>
 
-        </form>
-        
-   </div>
+      
+        <tr>
+     		<th>Monday</th>
+     		<td>Eng</td>
+     		<td>Mat</td>
+     		<td>Che</td>
+     		<td rowspan="6"><h3>L<br>U<br>N<br>C<br>H</h3></td>
+     		<td colspan="3">LAB</td>
+     		<td>Phy</td>
+        </tr>
+        <tr>
+        	<th>Tuesday</th>
+        	<td colspan="3">LAB</td>
+     		<td>Eng</td>
+     		<td>Che</td>
+     		<td>Mat</td>
+     		<td>Sports</td>
+        </tr>
+        <tr>
+        	<th>Wednesday</th>
+     		<td>Mat</td>
+     		<td>Phy</td>
+     		<td>Eng</td>
+     		<td>Che</td>
+     		<td colspan="3">LIBRARY</td>
+
+        </tr>
+        <tr>
+        	<th>Thrusday</th>
+     		<td>Phy</td>
+     		<td>Eng</td>
+     		<td>Che</td>
+     		<td colspan="3">LIB</td>
+     		<td>Mat</td>
+
+        </tr>
+        <tr>
+        	<th>Friday</th>
+        	<td colspan="3">LAB</td>
+            <td>Mat</td>
+     		<td>Che</td>
+     		<td>Eng</td>
+     		<td>Phy</td>
+        </tr>
+        <tr>
+        	<th>Saturday</th>
+     		<td>Eng</td>
+     		<td>Che</td>
+     		<td>Mat</td>
+     		<td colspan="3">SEMINAR</td>
+     		<td>SPORTS</td>
+
+        </tr>
+     	
+     </table>
 </body>
 </html>
